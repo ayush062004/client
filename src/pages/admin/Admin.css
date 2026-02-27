@@ -1,0 +1,73 @@
+.outer{
+    background-image: url("../user/bgimg06.jpg");
+    background-size:cover;
+    height: 729px;
+    
+    
+    
+}
+
+.outer1{
+  background-image: url("dark.jpg");
+    background-size:cover;
+    height: 729px;
+}
+
+body, html {
+  overflow-x: hidden !important;
+}
+
+.headc{
+    background-color: rgb(126, 126, 112);
+}
+
+.cardbg{
+  background-color: beige;
+}
+
+.outer2{
+  background-image: url("dark.jpg");
+    background-size:cover;
+    
+}
+
+body{
+  background-image: url("dark.jpg");
+}
+
+.form-control.bg-dark.text-light {
+  color: #f8f9fa !important;   /* Force white text */
+}
+
+.form-control.bg-dark.text-light::placeholder {
+  color: #adb5bd;  /* Lighter grey placeholder */
+}
+
+
+
+
+/* Sidebar animation */
+.sidebar-wrapper {
+  flex: 0 0 250px;  /* default width */
+  max-width: 250px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.sidebar-wrapper.collapsed {
+  flex: 0 0 0;
+  max-width: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  opacity: 0;
+}
+
+/* Content expands smoothly */
+.contentc {
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.contentc.expanded {
+  width: 100%;
+}
